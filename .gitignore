@@ -1,0 +1,57 @@
+# Build artifacts
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.log
+*.tlog
+*.lastbuildstate
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.VC.db
+
+# Visual Studio specific files
+.vs/
+.vscode/
+*.vcxproj*
+*.vcxproj.filters
+*.suo
+*.ncb
+*.user
+*.browse.VC.db
+
+# CMake specific files (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# Ignore build directories
+Debug/
+Release/
+x64/
+x86/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+*.rsrc
+
+# Ignore IDE-specific settings
+.idea/
+*.userprefs
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+#
